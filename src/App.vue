@@ -8,4 +8,6 @@
   </p>
 </template>
 
-<style scoped></style>
+<style type="scss">
+@import '@/assets/main.scss';
+</style>

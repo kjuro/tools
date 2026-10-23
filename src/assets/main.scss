@@ -1,0 +1,41 @@
+/* Colors */
+
+$primary: #019670 !default;
+$secondary: #353535 !default;
+$success: #28a745 !default;
+$info: #17a2b8 !default;
+$warning: #ffc107 !default;
+$danger: #dc3545 !default;
+$light: #f8f9fa !default;
+$dark: #343a40 !default;
+
+$link-color: #019670;
+$hover-color: #005b43;
+$h-color: #000000;
+$text-color: #353535;
+$placeholder-color: #a8a7a7;
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue-next/dist/bootstrap-vue-next.css';
+@import 'bootstrap-vue-jk/dist/bootstrap-vue-jk.css';
+
+html,
+body,
+#app{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.w-1 {
+  width: 1px;
+}
+
+// SM Small devices (landscape phones, 576px and up)
+// MD Medium devices (tablets, 768px and up)
+// LG Large devices (desktops, 992px and up)
+// XL Extra large devices (large desktops, 1200px and up)

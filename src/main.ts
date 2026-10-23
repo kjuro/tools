@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import BootstrapVueJK from 'bootstrap-vue-jk'
+
+const app = createApp(App)
+
+app.use(BootstrapVueJK)
+
+app.mount('#app')
